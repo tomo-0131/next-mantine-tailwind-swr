@@ -15,6 +15,7 @@
     "@mantine/form": "^5.3.3",
     "@mantine/hooks": "^5.3.3",
     "@mantine/next": "^5.3.3",
+    "axios": "^0.27.2",
     "next": "12.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "@types/node": "18.7.18",
+    "@types/nprogress": "^0.2.0",
     "@types/react": "18.0.20",
     "@types/react-dom": "18.0.6",
     "@typescript-eslint/eslint-plugin": "^5.37.0",

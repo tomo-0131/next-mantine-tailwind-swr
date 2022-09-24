@@ -1,10 +1,12 @@
-import React from "react";
+import React from 'react';
 
-import "../../styles/globals.css";
-import type { AppProps } from "next/app";
-import Head from "next/head";
+import '../../styles/globals.css';
+import type { AppProps } from 'next/app';
+import Head from 'next/head';
 
-import { MantineProvider } from "@mantine/core";
+import { MantineProvider } from '@mantine/core';
+
+import Router from 'next/router';
 
 function MyApp({ Component, pageProps }: AppProps) {
 	return (
@@ -21,7 +23,8 @@ function MyApp({ Component, pageProps }: AppProps) {
 				withGlobalStyles
 				withNormalizeCSS
 				theme={{
-					colorScheme: "light",
+					colorScheme: 'light',
+					loader: 'bars'
 				}}
 			>
 				<Component {...pageProps} />
